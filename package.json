@@ -1,0 +1,27 @@
+{
+  "name": "gifbot",
+  "version": "0.0.1",
+  "description": "Simple Telegram Bot for searching GIF's from several sources",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Telegram",
+    "Bot",
+    "Node.js",
+    "GIF",
+    "JS",
+    "Typescript"
+  ],
+  "author": "Bohdan \"Disco Boy\" H",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "node-telegram-bot-api": "^0.64.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  }
+}
