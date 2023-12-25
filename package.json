@@ -4,7 +4,8 @@
   "description": "Simple Telegram Bot for searching GIF's from several sources",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npx nodemon index.js"
   },
   "keywords": [
     "Telegram",
@@ -20,5 +21,8 @@
     "axios": "^1.6.2",
     "dotenv": "^16.3.1",
     "node-telegram-bot-api": "^0.64.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
   }
 }
